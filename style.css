@@ -3,16 +3,25 @@ body{
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
 }
 
-.header {
-    width: 1343px;
-    background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 0 50% repeat-x;
-    background-size: 1440px 1315px;
-    background-position-y: 100%;
+.main {
+    background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+    background-color: black;
+    background-size: 1440px 1250px;
+    background-position: bottom center;
     position: relative;
     color: white;
     text-align: center;
-    margin-bottom: 2px;
+    margin: 0 auto;
 }
+
+.container{
+    max-width: 1440px;
+    min-width: 1250px;
+    height: 538px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navi {
     width: 980px;
     height: 35px;
@@ -44,18 +53,21 @@ body{
 }
 
 .normal {
-    /*float: right;*/
     display: list-item;
     text-align: -webkit-center;
     z-index: 2;
-    width: 106.78px;
-    height: 33px;
+    width: 100%;
+    height: 100%;
     position: relative;
     border-right: 1px solid rgba(75, 75, 75, 0.5);
     color: rgba(255, 255, 255, 0.9);
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.753), 1px 1px 1px rgba(66, 66, 66, 0.651);
     cursor: pointer;
     list-style: none;
+}
+
+.normal:hover{
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .normal span {
@@ -72,22 +84,15 @@ body{
     width: 100px;
     height: 22px;
     position: relative;
-    margin: 5px auto;
+    margin: 5px;
     box-shadow: inset 0px 1px 1px rgba(70, 70, 70, 0.8), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
     background: transparent;
-    transition: all 300ms ease-in-out;
-    padding-left: 22px;
-   /* position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px;
-    padding: 8px 13px;
-    background: none;
-    border-width: 0 2px 0 1px;*/
+    transition: all 0.3s ease-in-out;
 }
 
 input{
     -webkit-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
     text-rendering: auto;
     color: initial;
     letter-spacing: normal;
@@ -112,11 +117,12 @@ input{
     border: none;
 }
 
-input.first-input:focus{
+input.first-input:focus {
     background-color: white;
     width: 190px;
     outline: 0px;
-    margin:3px 3px;
+    margin: 5px;
+    padding-left: 27px;
 }
 
 .svg-search {
@@ -125,8 +131,132 @@ input.first-input:focus{
     position: absolute;
     left: 8px;
     top: 30%;
+    fill: #eee;
+}
+
+svg:focus {
+    fill:  rgba(75, 75, 75, 0.5);
 }
 
 :not(svg) {
     transform-origin: 0px 0px;
+}
+
+.header-text-container{
+    position: relative;
+    font-weight: lighter;
+    top: -30px;
+    height: 630px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-link {
+    height: 32px;
+    overflow: hidden;
+}
+
+.image-link img:hover{
+    position: relative;
+    top: -32px;
+}
+
+.aside-container{
+    min-height: 175px;
+    display: flex;
+    max-width: 1343px;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+
+.aside-a{
+    box-sizing: border-box;
+    margin-left: 1px;
+    width: 335.75px;
+    height: 207px;
+    object-fit: cover;
+    object-position: 50% 0;
+    position: relative;
+    overflow: hidden;
+    border-right: 3px solid white;
+    background: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.aside-img{
+    width: 333.75px;
+    height: 207px;
+}
+
+.footer{
+    max-width: 1343px;
+    height: 90px;
+    margin-top: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container{
+    margin: 0 50px;
+    width: 980px;
+    height: 80px;
+    padding: 1em 0 2.6em;
+    margin: auto;
+    color: #6e6e6e;
+}
+.footer a:link,
+.footer a:visited,
+.footer a:active {
+    text-decoration: none;
+    color: #08c;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: #08c;
+}
+
+.f-row {
+    width: 980px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.contact, 
+.f-nav {
+    float: left;
+    width: 50%;
+    height: 20px;
+    padding: auto;
+    left: 15%;
+    align-items: center;
+}
+ 
+.Copyright {
+    width: 980px;
+    height: 20px;
+    clear: left;
+    font-size: 10px;
+    text-align: left;
+
+}
+
+.footer-nav-li {
+    float: left;
+    margin-left: 0.5%;
+    list-style: none;
+}
+
+.one{
+    margin-left: 2%;
+}
+
+.footer-span{
+    margin: 0 0.5%;
 }
