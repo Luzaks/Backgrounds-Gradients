@@ -1,1 +1,132 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+}
 
+.header {
+    width: 1343px;
+    background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 0 50% repeat-x;
+    background-size: 1440px 1315px;
+    background-position-y: 100%;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.navi {
+    width: 980px;
+    height: 35px;
+    background: linear-gradient( to bottom, rgb(134, 134, 134) 5%, rgb(128, 128, 128) 50%, rgb(107, 107, 107) 51%, rgb(99, 99, 99) 8%, rgb(121, 121, 121) 94% );
+    position: absolute;
+    font-size: 14px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border: 1px solid rgb(109, 109, 109);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.normal {
+    /*float: right;*/
+    display: list-item;
+    text-align: -webkit-center;
+    z-index: 2;
+    width: 106.78px;
+    height: 33px;
+    position: relative;
+    border-right: 1px solid rgba(75, 75, 75, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.753), 1px 1px 1px rgba(66, 66, 66, 0.651);
+    cursor: pointer;
+    list-style: none;
+}
+
+.normal span {
+    position: relative;
+    top: 6px;
+}
+
+.svg-apple {
+    position: relative;
+    top: 5px;
+}
+
+.normal input {
+    width: 100px;
+    height: 22px;
+    position: relative;
+    margin: 5px auto;
+    box-shadow: inset 0px 1px 1px rgba(70, 70, 70, 0.8), inset 0 -1px 1px rgba(204, 204, 204, 0.6);
+    background: transparent;
+    transition: all 300ms ease-in-out;
+    padding-left: 22px;
+   /* position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    padding: 8px 13px;
+    background: none;
+    border-width: 0 2px 0 1px;*/
+}
+
+input{
+    -webkit-writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 9px;
+    border: none;
+}
+
+input.first-input:focus{
+    background-color: white;
+    width: 190px;
+    outline: 0px;
+    margin:3px 3px;
+}
+
+.svg-search {
+    width: 14x;
+    height: 13px;
+    position: absolute;
+    left: 8px;
+    top: 30%;
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
