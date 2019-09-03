@@ -12,7 +12,7 @@ https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 ## Photo shows of copy:
 
-* ![Apple's old page cooy](https://i.ibb.co/QPLJw6D/background-gradients.png "My page")
+* ![Apple's old page cooy](https://i.ibb.co/9WQhvYt/background-gradients.png "My page")
 
 ## Process's description:
 

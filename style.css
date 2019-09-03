@@ -16,7 +16,7 @@ body{
 
 .container{
     max-width: 1440px;
-    min-width: 1250px;
+    min-width: 1024px;
     height: 538px;
     margin-left: auto;
     margin-right: auto;
@@ -168,14 +168,15 @@ svg:focus {
 .aside-container{
     min-height: 175px;
     display: flex;
-    max-width: 1343px;
+    max-width: 1440px;
     min-width: 1024px;
     margin: 0.15% auto;
 }
 
 .aside-a{
     box-sizing: border-box;
-    width: 335.75px;
+    max-width: 360px;
+    min-width: 256px;
     height: 207px;
     object-fit: cover;
     object-position: 50% 0;
@@ -186,7 +187,8 @@ svg:focus {
 }
 
 .aside-img{
-    width: 335.75px;
+    max-width: 360px;
+    min-width: 256px;
     height: 207px;
 }
 
