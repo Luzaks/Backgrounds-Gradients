@@ -169,25 +169,23 @@ svg:focus {
     display: flex;
     max-width: 1343px;
     min-width: 1024px;
-    margin: 0 auto;
+    margin: 0.15% auto;
 }
 
 .aside-a{
     box-sizing: border-box;
-    margin-left: 1px;
     width: 335.75px;
     height: 207px;
     object-fit: cover;
     object-position: 50% 0;
     position: relative;
     overflow: hidden;
-    border-right: 3px solid white;
     background: rgb(238, 238, 238);
     cursor: pointer;
 }
 
 .aside-img{
-    width: 333.75px;
+    width: 335.75px;
     height: 207px;
 }
 
@@ -222,22 +220,30 @@ svg:focus {
     color: #08c;
 }
 
-.f-row {
+.inside-up {
     width: 980px;
     height: 30px;
     font-size: 10px;
 }
 
-.contact, 
-.f-nav {
+.left {
     float: left;
-    width: 50%;
+    width: 49%;
     height: 20px;
     padding: auto;
     left: 15%;
     align-items: center;
 }
  
+.right {
+    float: left;
+    width: 51%;
+    height: 20px;
+    padding: auto;
+    left: 14%;
+    align-items: center;
+}
+
 .Copyright {
     width: 980px;
     height: 20px;
@@ -249,12 +255,8 @@ svg:focus {
 
 .footer-nav-li {
     float: left;
-    margin-left: 0.5%;
+    margin-left: 0.9%;
     list-style: none;
-}
-
-.one{
-    margin-left: 2%;
 }
 
 .footer-span{
