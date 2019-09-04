@@ -20,15 +20,17 @@ body{
     height: 538px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .navi {
+    display: block;
     width: 980px;
     height: 35px;
     background: linear-gradient( to bottom, rgb(134, 134, 134) 5%, rgb(128, 128, 128) 50%, rgb(107, 107, 107) 51%, rgb(99, 99, 99) 8%, rgb(121, 121, 121) 94% );
     position: absolute;
     font-size: 14px;
-    top: 75px;
+    margin-top: 75px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -151,15 +153,23 @@ svg:focus {
 }
 
 .header-text-container{
-    position: relative;
-    font-weight: lighter;
-    top: -30px;
-    height: 630px;
+    position: absolute;
+    top: 140px;
+    height: 335px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.header-img-1 {
+    width: 979px;
+    height: 98px;
+}
+
+.header-img-2 {
+    width: 980px;
+    height: 82px;
+    margin-bottom: 30px;
 }
 
 .image-link {
