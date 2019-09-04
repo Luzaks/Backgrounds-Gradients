@@ -21,7 +21,7 @@ The page's structure where build with semantic html tags.
 The \<header\> tag includes:
 - a background image that covers up it's total size
 - a \<nav\>, a \<ul\>, several \<li\> tags that wraps \<svg\>, \<span\> and \<input\> tags for the navigation bar styled with gradients 
-- a \<h1\>, \<h2\>, \<img\> with page's advertisement.
+- \<img\> tags with page's advertisement.
 
 In the \<aside\> section the \<img\> where positioned inside \<a\> element below the \<header\>.
 
