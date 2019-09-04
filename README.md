@@ -1,6 +1,6 @@
 # Backgrounds-Gradients.
 
-This is a project where backgrounds and gradients were applied in a basic structure's copy of an Apple's old page as well as the layout.
+This is a project where backgrounds, gradients and layout were applied in a basic structure's copy of an Apple's old page.
 
 ## Full task description of the project:
 
